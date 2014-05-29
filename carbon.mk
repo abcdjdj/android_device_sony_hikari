@@ -16,12 +16,6 @@
 
 $(call inherit-product, device/sony/hikari/full_hikari.mk)
 
-# Inherit CM common GSM stuff.
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
-
-# Enhanced NFC
-#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit CM common Phone stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
